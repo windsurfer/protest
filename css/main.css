@@ -3,11 +3,23 @@
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-
-body {
-	color: #F00;
+@font-face {
+  font-family: 'Titillium Web';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Titillium WebLight'), local('TitilliumWeb-Light'), url('../fonts/TitilliumWeb-Light.ttf') format('woff');
+}
+@font-face {
+  font-family: 'Titillium Web';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Titillium Web'), local('TitilliumWeb-Regular'), url('../fonts/TitilliumWeb-Regular.ttf') format('woff');
 }
 
+body {
+    font-family: "Titillium Web",Helvetica,Arial,sans-serif;
+    font-weight: 300;
+}
 
 
 
